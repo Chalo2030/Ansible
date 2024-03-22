@@ -1,5 +1,8 @@
-[web_servers]
+[workstations]
+172.16.193.131
 172.20.109.25
+#[web_servers]
+#172.20.109.25
 #172.20.109.26
 
 #[db_servers]
@@ -7,7 +10,6 @@
 
 #[file_servers]
 #172.20.109.25
-#
 #
 #172.20.109.25 apache_package=apache2 php_package=libapache2-mod-php
 #Lets assume we have three virtual machines
